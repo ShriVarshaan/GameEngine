@@ -5,7 +5,7 @@ The YAML can be edited in a specific format and users can use it to create their
 
  player:<player name>
  map:<map id>
- room:<id>,<name>,<description>,<hidden>
+ room:id,name,description,hidden
  equipment:<id>,<name>,<description>,<hidden>,<use action>,<use
  target>,<use result>,<use description>
  container:<id>,<name>,<description>,<hidden>
