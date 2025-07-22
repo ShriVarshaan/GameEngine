@@ -1,0 +1,82 @@
+player:alison
+score:60
+map:m1
+currentRoom:r2
+room:r1,top floor,The walls are lined with dark wooden panels. To the south is a sturdy wooden door made with iron hardware.,false
+container:d1,door,A wooden door,false
+exit:ex1,south,A door to the south,r2,false
+room:r2,treasure reserve,The room is dominated by a massive vault pressed against gold-plated walls. To the east is a towering door crafted entirely of diamonds.,false
+item:g1,coins,Large stack of golden coins,false
+container:v1,vault,Large metallic grey vault,false
+container:d2,door,Large wooden door,false
+exit:ex2,east,A door to the east,r3,false
+exit:ex1,north,A door to the north,r1,false
+room:r3,shop,Welcome to the shop Alison. You can buy any equipments you may need for the future in this shop. Feel free to look around and make a purchase. Please make a purchase my boss says he'll fire me if I don't make a sale today.,true
+equipment:s1-50-buy,sword,A large sword with a diamond tip that can cut through everything for 50,false,kill,l1,rm1,You have killed the lion and now there is rotten meat on the floor
+equipment:p1-100-buy,potion,Magic potion that enlarges everything for 100,false,enlarge key,k4,k5,The small bronze key has enlarged into a giant key
+exit:ex2,west,A door to the west,r2,false
+exit:ex3,east,A door to the east,4r4,false
+room:4r4,pathway,Pathway,true
+exit:ex3,west,A door to the west,r3,false
+exit:ex4,east,A door to the east,r5,false
+room:r5,lion room,The dungeon has a cold stone floor scattered with the bones of long-dead animals.,true
+container:l1,lion,A lion that has fallen asleep,false
+equipment:rm1,meat,Stinky and rotten lion flesh,true,feed,w1,a1,The witch turns into a beautiful woman and drops an apple on the floor. She runs back to her family eager to meet them again after 700 years!
+exit:ex4,west,A door to the west,4r4,false
+exit:ex5,east,A door to the east,6r6,false
+room:6r6,pathway,pathway,true
+exit:ex5,west,A door to the west,r5,false
+exit:ex6,east,A door to the east,7r7,false
+room:7r7,pathway,pathway,true
+exit:ex6,west,A door to the west,6r6,false
+exit:ex7,east,A door to the east,8r8,false
+room:8r8,pathway,pathway,true
+exit:ex7,west,A door to the west,7r7,false
+exit:ex8,east,A door to the east,r9,false
+room:r9,witch room,Walls gleaming in gold and a magnificent fountain scaling the entirety of the room,true
+container:w1,witch,A green coloured long nosed witch,false
+equipment:a1,apple,A red apple,true,throw,n1,placeholder,Yay! you just helped newton discover gravity
+exit:ex8,west,A path going west,8r8,false
+exit:ex9,south,A path going south,r10,false
+room:r10,newtown,Isaac Newton sits quietly in a strange watermelon garden. To the south is another pathway.,true
+container:n1,newton,Isaac Newton,false
+exit:ex9,north,A door to your north,r9,false
+exit:ex10,south,A door to your south,r11,false
+room:r11,magical room,A grand room with its walls lined with beautiful paintings. There is a mysterious (maybe even magical) river flowing across the room,true
+item:c3,rope,Long and thick rope,false
+item:c4,wood,Wooden logs,false
+container:r1,river,Magical river,false
+equipment:c34,bridge,A long bridge that will help you cross the river,true,cross,r1,ex11,You have constructed a bridge to cross the river
+exit:ex11,south,A path going south,7r12,true
+exit:ex10,north,A door to the north,r10,false
+room:7r12,pathway,pathway,true
+exit:ex12,south,A bridge going south,7r13,false
+exit:ex11,north,A bridge going north,r11,false
+room:7r13,pathway,pathway,true
+exit:ex13,south,Bridge going south,r14,false
+exit:ex11,north,Bridge going north,7r12,false
+room:r14,library,You enter a library so massive you can smell the paper and leather from the books. A few books are displayer in the centre of the library. To the east is an archaic door constructed in the style of 10th century Indian architecture.,true
+item:j1,Java Programming,Java Programming book,false
+item:h1,Harry Potter,Harry Potter and the Sorcerer of Stones,false
+item:p1,Peter pan,Peter pan the extended version,false
+container:d14,door,Large door made with a rock with scriptures on it,false
+equipment:gb1,BhagavadGita,Old Hindu religious text bhagavad gita,false,search,placeholder,k3,A key falls to the floor
+equipment:k3,key,A large golden key,true,open door,d14,ex14,The door has opened
+exit:ex14,east,A path going east,r15,true
+exit:ex13,north,Bridge going north,7r13,false
+room:r15,garden,Vast garden with a gigantic chest made out of pure gold dominating the landscape. To the south is a strange-looking gate,true
+item:k4,key,Small bronze key,false
+container:g1,giantChest,Giant golden chest,false
+equipment:k5,giantKey,Giant bronze key,true,open giant chest,g1,ex15,A genie flies out of the chest and opens up the gates
+exit:ex15,south,A path going south,r16,true
+exit:ex14,west,A path going west,r14,false
+room:r16,shoes,Open area stretching out with mountains rising to the east,true
+equipment:s1,shoes,Running shoes,false,own,placeholder,ex16,You put your shoes on
+exit:ex16,east,A path going east,r17,true
+exit:ex15,north,A path going north,r15,false
+room:r17,zombie,Your pathway to freedom,true
+container:z1,zombie,Green zombie,false
+equipment:s2,sword,Sword with a diamond tip that can cut through anything,false,kill zombie,z1,ex17,You have killed the zombie!!
+exit:ex17,east,The home stretch,r18,true
+exit:ex15,west,A path going west,r16,false
+room:r18,final,final,true
